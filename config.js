@@ -25,7 +25,7 @@ const CONFIG = {
             text: "Do you like me?",                                    // First interaction
             yesBtn: "Yes",                                             // Text for "Yes" button
             noBtn: "No",                                               // Text for "No" button
-            secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
+            secretAnswer: "I don't like you, I love you buddy! ❤️"           // Secret hover message
         },
         second: {
             text: "How much do you love me?",                          // For the love meter
@@ -43,8 +43,8 @@ const CONFIG = {
     // They show up depending on how far they slide the meter
     loveMessages: {
         extreme: "Yippee my buddy loves me so much!",  // Shows when they go past 5000%
-        high: "",              // Shows when they go past 1000%
-        normal: "Im so glad you like me"                           // Shows when they go past 100%
+        high: "Dang my buddy likes me a whole lot!",              // Shows when they go past 1000%
+        normal: "Im so glad you like me!"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
